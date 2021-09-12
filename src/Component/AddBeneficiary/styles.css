@@ -1,0 +1,83 @@
+.add-beneficiary-modal {
+  height: 700px;
+  width: 950px;
+  padding: 0px 50px 667px 50px !important;
+}
+.add-beneficiary-modal-dialogue {
+  padding: 2rem;
+  text-align: center !important;
+  padding-left: 170px !important;
+  padding-right: 170px !important;
+  padding-bottom: 74px !important;
+}
+.add-beneficiary-modal-dialogue p {
+  font-family: "Catamaran", sans-serif !important;
+  font-size: 16px;
+  font-weight: 400 !important;
+}
+.add-beneficiary-modal-flex-div {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse !important;
+  bottom: 50px !important;
+  right: 20px;
+  position: fixed;
+  margin-right: 90px;
+}
+.add-beneficiary-main-label {
+  display: inline-block;
+  font-family: Raleway !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  color: #273469 !important;
+  text-align: center;
+  margin-top: 56px !important;
+}
+.add-beneficiary-sub-heading {
+  font-size: 16px !important;
+  max-width: 434px;
+}
+.add-beneficiary-second-sub-heading {
+  font-size: 12px !important;
+  max-width: 346px;
+  font-weight: 400;
+  color: #273469;
+  margin-top: 8px;
+}
+.padding-left {
+  padding-left: 25px;
+}
+.identification-select-styling {
+  width: 350px !important;
+}
+.add-beneficary-country-field {
+  margin-top: 20px;
+}
+.add-beneficiary-contact-input-field {
+  width: 250px;
+}
+.add-beneficiary-contact-input-field .error-text {
+  min-width: 150px;
+}
+.add-beneficiary-email-input-field {
+  width: 350px;
+  margin-bottom: 25px;
+  margin-top: 34px;
+}
+.add-beneficiary-email-input-field .error-text {
+  min-width: 170px;
+}
+.add-beneficiary-input-group-custom-code {
+  position: relative;
+  /* display: flex; */
+  flex-wrap: wrap;
+}
+.hint-text-bottom {
+  font-size: 12px !important;
+  color: #787878 !important;
+  font-weight: 400 !important;
+}

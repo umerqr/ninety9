@@ -1,0 +1,58 @@
+.modal-root-class {
+  outline: "none" !important;
+}
+
+.paper-main-div {
+  width: 1120px;
+  border-radius: 3px;
+  box-shadow: 1px 5px 16px 0 rgba(27, 39, 51, 0.11) !important;
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  border: 1px solid #e1e5ec;
+  box-shadow: 1px 1px 1px black;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Mulish" !important;
+}
+
+.modal-top {
+  padding: 19px 24px;
+  /* border-bottom: 1px solid #e7e7e7; */
+}
+.modal-top.row {
+  margin: 0 !important;
+}
+.advanced-search-heading {
+  display: inline-block;
+  font-family: Raleway !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  color: #273469 !important;
+  text-align: center;
+  margin-top: 74px !important;
+  padding-left: 194px;
+  padding-right: 194px;
+}
+.button-modal {
+  top: 10px !important;
+  right: 10px !important;
+  position: fixed;
+}
+.hr-break-line-drop {
+  border: 1px solid #e7e7e7;
+  margin: 5px 0 5px 0 !important;
+}
+
+.modal-top button {
+  min-width: auto !important;
+  padding: 0 !important;
+}

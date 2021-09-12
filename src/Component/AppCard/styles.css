@@ -1,0 +1,213 @@
+.app-card-container-active {
+  border-top: 1px solid #f8951b;
+  border-right: 1px solid #f8951b;
+  border-bottom: 1px solid #f8951b;
+  border-left: 10px solid #f8951b;
+  border-radius: 5px;
+  margin: 15px 25px 15px 0px;
+  padding: 5px 5px 5px 5px !important;
+  min-width: 560px;
+}
+.one-app-card-container-active {
+  border-top: 1px solid #f8951b;
+  border-right: 1px solid #f8951b;
+  border-bottom: 1px solid #f8951b;
+  border-left: 1px solid #f8951b;
+  border-radius: 5px;
+  margin: 15px 25px 15px 0px;
+  padding: 5px 5px 5px 5px !important;
+  min-width: 872px;
+}
+.app-card-inner-container {
+  padding-left: 46px;
+  padding-right: 53px;
+}
+.app-card-container-inactive {
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin: 15px 15px 15px 0px;
+  padding: 25px 15px 0px 15px !important;
+  min-width: 560px;
+}
+
+.app-card-item-name {
+  color: #1e8582 !important;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+.app-card-item-name-pending {
+  color: #ff0a0a !important;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+.top-label-container {
+  padding: 10px 0 0;
+  min-width: 174px;
+}
+.app-card-item-type {
+  font-size: 16px !important;
+  font-family: Mulish !important;
+  color: #687184 !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.app-card-plan-container {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  padding: 40px 0px 5px 0px;
+  justify-content: space-between;
+}
+.app-card-beneficiary-row {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  padding: 8px 0 5px;
+}
+.app-card-engagement-container {
+  margin-right: 15px;
+}
+.app-card-success-container {
+  margin-right: 2px;
+}
+.app-card-plan-heading {
+  font-size: 24px !important;
+  font-family: Raleway !important;
+  color: #1e8582 !important;
+  font-weight: 700 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.app-card-plan-price {
+  color: #273469 !important;
+  font-family: Mulish !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 24px;
+  line-height: 30px !important;
+}
+.app-card-success-number {
+  font-size: 34px !important;
+  font-family: Mulish !important;
+  color: #1b2733 !important;
+  font-weight: 500 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.app-card-affiliation-label {
+  padding-top: 10px;
+  font-size: 12px !important;
+  font-family: Mulish !important;
+  color: #787878 !important;
+  padding-right: 4px;
+  font-weight: 600 !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 17.57px !important;
+}
+.app-card-success-label {
+  font-size: 15px !important;
+  font-family: Mulish !important;
+  color: #687184 !important;
+  font-weight: normal !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.app-card-button-container {
+  border-top: 1px solid #e1e5ec;
+  width: 100%;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.app-card-button-label {
+  font-size: 15px !important;
+  font-family: Mulish !important;
+  color: #ff5252 !important;
+  font-weight: bold !important;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07 !important;
+  letter-spacing: normal;
+}
+.app-card-pago-div {
+  margin: 10px 0 0;
+  border: 1px solid #1e8582;
+  box-sizing: border-box;
+  border-radius: 30px;
+  max-width: 60px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.app-card-pending-div {
+  margin: 10px 0 0;
+  border: 1px solid #ff0a0a;
+  box-sizing: border-box;
+  border-radius: 30px;
+  max-width: 100px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.users-icon-style {
+  margin-right: 5px;
+  margin-top: 4px;
+}
+.app-card-btn-theme-outline {
+  border: 1px solid #f8951b !important;
+  border-radius: 30px !important;
+  font-family: "Mulish", sans-serif !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  justify-content: center !important;
+  color: #f8951b !important;
+  transition: all 0.3s ease !important;
+  min-width: 200px !important;
+  padding: 8px 20px !important;
+  cursor: pointer !important;
+  text-transform: none !important;
+}
+.app-card-btn-theme-outline:hover {
+  background: #fb9448 !important;
+  border: 1px solid #fb9448 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.app-card-btn-theme-outline:disabled,
+.app-card-btn-theme:disabled,
+.app-card-btn-theme-outline:disabled:hover,
+.app-card-btn-theme:disabled:hover {
+  border: 1px solid #e5e5e5 !important;
+  background: #e5e5e5 !important;
+  color: #787878 !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+.cambiar-button-div {
+  margin-top: 43px;
+}

@@ -1,0 +1,45 @@
+.edit-card-modal {
+  width: 560px !important;
+  height: 560px !important;
+}
+.edit-card-main-label {
+  font-size: 24px !important;
+  color: #273469 !important;
+  font-weight: 700;
+  padding-left: 100px;
+  font-family: Mulish;
+  padding-right: 100px;
+}
+.edit-card-sub-heading {
+  text-align: center !important;
+  font-size: 16px;
+  font-family: Mulish;
+  font-weight: 400;
+  color: #787878;
+  padding-bottom: 34px;
+}
+.edit-form-input-field {
+  width: 350px;
+  margin-left: 105px;
+}
+.form-control.is-visa {
+  padding-right: 42px;
+  background-image: url("../../assets/img/visa.svg");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 30px;
+}
+.expire-date-styling {
+  width: 155px !important;
+  margin-left: 105px;
+}
+.cvv-field-styling {
+  width: 155px !important;
+  margin-right: 105px;
+  margin-left: 40px;
+}
+.edit-card-modal-flex-div {
+  float: right;
+  padding-top: 100px;
+  padding-right: 105px;
+}

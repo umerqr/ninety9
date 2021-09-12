@@ -1,0 +1,36 @@
+.error-heading {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Raleway;
+  text-align: center;
+  color: #1e8582;
+  margin-top: 100px;
+}
+.error-sub-heading {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Mulish;
+}
+.error-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 570px;
+}
+.error-btn {
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.error-btn > a {
+  text-decoration: none;
+}
+@media all and (max-width: 890px) {
+  .error-img {
+    width: 300px;
+  }
+  .error-btn {
+    width: 50%;
+  }
+}

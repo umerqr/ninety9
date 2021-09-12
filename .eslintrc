@@ -1,0 +1,50 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "camelcase": [0],
+        "no-return-assign": ["warn"],
+        "object-curly-newline": ["error", { "multiline": true }],
+        "operator-linebreak": ["error", "after", { "overrides": { "?": "before", ":": "before" } }],
+        "prefer-arrow-callback": ["warn"],
+        "import/no-extraneous-dependencies": [0],
+        "import/no-unresolved": [
+        1,
+        {
+            "ignore": ["actions/", "assets/", "components/", "reducers/", "styles/", "utils/", "views/"]
+        }
+        ],
+        "import/extensions": [0],
+        "import/prefer-default-export": [0],
+        "jsx-a11y/label-has-associated-control": ["warn"],
+        "jsx-a11y/label-has-for": [0],
+        "jsx-a11y/no-static-element-interactions": ["warn"],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/no-array-index-key": ["warn"],
+        "react/prefer-stateless-function": ["warn"],
+        "react/destructuring-assignment": ["error", "always", { "ignoreClassFields": true }],
+        "react/sort-comp": ["warn"],
+        "react/no-multi-comp": ["error"],
+        "react/self-closing-comp": ["error"],
+        "react/jsx-wrap-multilines": ["error", {
+        "declaration": "parens-new-line",
+        "assignment": "parens-new-line",
+        "return": "parens-new-line",
+        "arrow": "parens-new-line",
+        "condition": "parens-new-line",
+        "logical": "parens-new-line",
+        "prop": "parens-new-line"
+        }]
+    },
+    "env": {
+        "browser": true,
+        "jest": true,
+        "es2020": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020
+    },
+    "plugins": [
+        "jsx-a11y",
+        "prettier"
+        ]
+}

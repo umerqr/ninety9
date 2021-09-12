@@ -1,0 +1,30 @@
+.confirmation-modal {
+  width: 837px;
+}
+.confirmation-modal-dialogue {
+  padding: 2rem;
+  text-align: center !important;
+  padding-left: 170px !important;
+  padding-right: 170px !important;
+  padding-bottom: 74px !important;
+}
+.confirmation-modal-dialogue p {
+  font-family: "Catamaran", sans-serif !important;
+  font-size: 16px;
+  font-weight: 400 !important;
+}
+.confirmation-modal-flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-top: 1px solid #e7e7e7; */
+  padding: 15px 155px 84px 155px;
+}
+.btn-div-confirmation {
+  margin-right: 100px;
+}
+.confirmation-select-styling {
+  width: 350px !important;
+  margin-bottom: 56px;
+  margin-left: 100px;
+}

@@ -1,0 +1,59 @@
+.plans-main-container {
+  padding-left: 474px;
+}
+.app-card-row {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+}
+/* .plans-secondary-row{
+    max-width: 1145px;
+    min-width: 560px;
+} */
+.plans-secondary-container {
+  max-width: 1145px;
+  min-width: 560px;
+  padding-top: 55px;
+}
+.header-row-style th,
+caption {
+  border-bottom: none !important;
+  font-family: Mulish !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 18px;
+  color: #273469 !important;
+}
+
+.table-container-styles {
+  margin-top: 30px;
+}
+.table-container-styles th,
+td,
+caption {
+  padding: 7px !important;
+}
+.table-body-styles th,
+td,
+caption {
+  color: #787878 !important;
+}
+.del-alert-modal {
+  width: 550px;
+}
+.clients-plans-main-container {
+  padding-left: 142px !important;
+  padding-top: 52px;
+}
+@media all and (max-width: 890px) {
+  .plans-main-container {
+    padding-left: 200px;
+  }
+}
+
+@media all and (max-width: 530px) {
+  .plans-main-container {
+    padding-left: 20px;
+  }
+}

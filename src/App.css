@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+button:focus {
+  outline: 0;
+}
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.btn-theme {
+  background: #f8951b;
+  border-radius: 30px;
+  border: 1px solid #f8951b;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  min-width: 200px;
+  padding: 8px 20px;
+}
+.btn-theme:hover {
+  background: #fb9448;
+  border: 1px solid #fb9448;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-theme-outline {
+  border: 1px solid #f8951b !important;
+  border-radius: 30px !important;
+  font-family: "Mulish", sans-serif !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  justify-content: center !important;
+  color: #f8951b !important;
+  transition: all 0.3s ease !important;
+  min-width: 200px !important;
+  padding: 8px 20px !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  max-height: 40px;
+}
+.btn-theme-outline:hover {
+  background: #fb9448 !important;
+  border: 1px solid #fb9448 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.btn-theme-outline:disabled,
+.btn-theme:disabled,
+.btn-theme-outline:disabled:hover,
+.btn-theme:disabled:hover {
+  border: 1px solid #e5e5e5 !important;
+  background: #e5e5e5 !important;
+  color: #787878 !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-header {
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+.visa {
+  background: #224dba;
+  color: #fff;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.error-text {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ff0a0a;
+  margin: 0px;
+  position: absolute;
+  padding-bottom: 2rem;
+}
+.append-custom-input-code {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  min-width: 99px !important;
+  color: #1e8582;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 0px 16px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.validated:focus {
+  color: #000000;
+  background-color: #fff;
+  border-color: #1e8582 !important;
+  outline: 0;
+  box-shadow: none;
+}

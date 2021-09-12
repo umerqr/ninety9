@@ -1,0 +1,62 @@
+.app-btn-theme {
+  background-color: #f8951b !important;
+  border-radius: 30px !important;
+  border: 1px solid #f8951b !important;
+  font-family: "Mulish", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease !important;
+  min-width: 200px !important;
+  max-height: 40px;
+  padding: 8px 20px !important;
+}
+.app-btn-theme:hover {
+  background: #fb9448 !important;
+  border: 1px solid #fb9448 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+.app-btn-theme-outline {
+  border: 1px solid #f8951b;
+  border-radius: 30px;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #f8951b;
+  transition: all 0.3s ease;
+  min-width: 200px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.app-btn-theme-outline:hover {
+  background: #fb9448;
+  border: 1px solid #fb9448;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.app-btn-theme-outline:disabled,
+.app-btn-theme:disabled,
+.app-btn-theme-outline:disabled:hover,
+.app-btn-theme:disabled:hover {
+  border: 1px solid #e5e5e5;
+  background: #e5e5e5;
+  color: #787878;
+  text-decoration: none;
+  opacity: 1;
+}
